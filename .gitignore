@@ -1,0 +1,30 @@
+echo "
+# Flutter
+.dart_tool/
+.idea/
+.vscode/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+generated_plugin_registrant.dart
+*.iml
+
+# iOS
+ios/Pods
+ios/.symlinks
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.generated/
+
+# Android
+android/.gradle/
+android/app/build/
+android/.idea/
+
+# Other
+pubspec.lock
+.metadata
+.DS_Store
+*.log
+" > .gitignore
